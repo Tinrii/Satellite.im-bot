@@ -1,0 +1,15 @@
+{
+  "name": "satellite.im-bot",
+  "version": "1.0.0",
+  "description": "Satellite.im official discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TinTin",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.17.1",
+    "dotenv": "^16.4.5"
+  }
+}
