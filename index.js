@@ -94,12 +94,6 @@ client.once('ready', async () => {
             name: command.name,
             description: command.description,
         };
-
-        if (command.options) {
-            commandData.options = command.options;
-        }
-
-        await client.guilds.cache.get(process.env.guild)?.commands.create(commandData);
     }
 });
 
